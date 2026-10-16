@@ -1,0 +1,13 @@
+# 编译产物，不需要提交
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+
+# 编辑器 / 系统生成
+.vs/
+*.user
+Thumbs.db
+.DS_Store
