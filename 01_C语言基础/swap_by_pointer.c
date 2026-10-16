@@ -3,8 +3,8 @@
 
 void swap(int *px, int *py)
 {
-    int temp = *px;   /* *px 表示"px 指向的那个变量的值" */
-    *px = *py;        /* 把 py 指向的值写进 px 指向的地址 */
+    int temp = *px;   //*px 表示"px 指向的那个变量的值" 
+    *px = *py;        // 把 py 指向的值写进 px 指向的地址 
     *py = temp;
 }
 
@@ -15,7 +15,7 @@ int main(void)
 
     printf("交换前:a = %d, b = %d\n", a, b);
 
-    swap(&a, &b);     /* 传地址，&a 就是变量 a 的地址 */
+    swap(&a, &b);     // 传地址，&a 就是变量 a 的地址 
 
     printf("交换后:a = %d, b = %d\n", a, b);
 
