@@ -1,9 +1,3 @@
-/*
- * 用 malloc 动态申请数组，输入若干个数并求平均值，最后 free 释放内存
- *
- * 编译：gcc dynamic_average.c -o dynamic_average
- * 运行：./dynamic_average   （Windows 下为 dynamic_average.exe）
- */
 #include <stdio.h>
 #include <stdlib.h>   /* malloc / free / exit 需要的头文件 */
 

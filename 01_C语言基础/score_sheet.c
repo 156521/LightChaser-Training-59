@@ -1,10 +1,3 @@
-/*
- * 成绩单：用结构体存姓名和分数，支持录入、统计、排序、打印
- * （进阶版：加入平均分、最高分、按分数降序排名）
- *
- * 编译：gcc score_sheet.c -o score_sheet
- * 运行：./score_sheet   （Windows 下为 score_sheet.exe）
- */
 #include <stdio.h>
 #include <string.h>
 

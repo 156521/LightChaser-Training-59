@@ -1,9 +1,4 @@
-/*
- * 打印 1~100 的奇数和
- *
- * 编译：gcc odd_sum.c -o odd_sum
- * 运行：./odd_sum   （Windows 下为 odd_sum.exe）
- */
+//打印 1~100 的奇数和
 #include <stdio.h>
 
 int main(void)
